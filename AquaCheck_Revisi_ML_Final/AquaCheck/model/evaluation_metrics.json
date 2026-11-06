@@ -1,0 +1,114 @@
+{
+  "selected_algorithm": "Extra Trees",
+  "accuracy": 0.6783536585365854,
+  "macro_f1": 0.6242116551508816,
+  "precision_macro": 0.6680676676939217,
+  "recall_macro": 0.6251562500000001,
+  "confusion_matrix": [
+    [
+      347,
+      53
+    ],
+    [
+      158,
+      98
+    ]
+  ],
+  "comparison": [
+    {
+      "algorithm": "Random Forest",
+      "accuracy": 0.6615853658536586,
+      "macro_f1": 0.6007894736842105,
+      "precision_macro": 0.6459418402777778,
+      "recall_macro": 0.605078125,
+      "confusion_matrix": [
+        [
+          345,
+          55
+        ],
+        [
+          167,
+          89
+        ]
+      ]
+    },
+    {
+      "algorithm": "Extra Trees",
+      "accuracy": 0.6783536585365854,
+      "macro_f1": 0.6242116551508816,
+      "precision_macro": 0.6680676676939217,
+      "recall_macro": 0.6251562500000001,
+      "confusion_matrix": [
+        [
+          347,
+          53
+        ],
+        [
+          158,
+          98
+        ]
+      ]
+    },
+    {
+      "algorithm": "Gradient Boosting",
+      "accuracy": 0.6371951219512195,
+      "macro_f1": 0.5122707052531614,
+      "precision_macro": 0.6350540216086434,
+      "recall_macro": 0.552734375,
+      "confusion_matrix": [
+        [
+          375,
+          25
+        ],
+        [
+          213,
+          43
+        ]
+      ]
+    },
+    {
+      "algorithm": "Hist Gradient Boosting",
+      "accuracy": 0.6615853658536586,
+      "macro_f1": 0.5900692450599561,
+      "precision_macro": 0.6514225816112609,
+      "recall_macro": 0.59875,
+      "confusion_matrix": [
+        [
+          354,
+          46
+        ],
+        [
+          176,
+          80
+        ]
+      ]
+    },
+    {
+      "algorithm": "Support Vector Machine",
+      "accuracy": 0.6189024390243902,
+      "macro_f1": 0.599609375,
+      "precision_macro": 0.599609375,
+      "recall_macro": 0.599609375,
+      "confusion_matrix": [
+        [
+          275,
+          125
+        ],
+        [
+          125,
+          131
+        ]
+      ]
+    }
+  ],
+  "dataset_rows": 3276,
+  "test_size": 0.2,
+  "random_state": 42,
+  "training_rows": 2620,
+  "testing_rows": 656,
+  "class_labels": {
+    "0": "Tidak Layak",
+    "1": "Layak"
+  },
+  "selection_metric": "Macro F1, dengan Accuracy sebagai pemecah nilai seri"
+}
