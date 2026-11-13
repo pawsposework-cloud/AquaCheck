@@ -1,0 +1,42 @@
+{
+  "selected_algorithm": "Decision Tree",
+  "accuracy": 0.99875,
+  "macro_f1": 0.9985119047619048,
+  "precision_macro": 0.9985119047619048,
+  "recall_macro": 0.9985119047619048,
+  "confusion_matrix": [
+    [
+      1119,
+      1
+    ],
+    [
+      1,
+      479
+    ]
+  ],
+  "class_order": [
+    "Unsafe",
+    "Safe"
+  ],
+  "dataset_name": "AquaCheck Dataset 7.999",
+  "dataset_rows": 7999,
+  "test_size": 0.2,
+  "random_state": 42,
+  "training_rows": 6399,
+  "testing_rows": 1600,
+  "cv_folds": 5,
+  "cv_accuracy_mean": 0.9992499218261413,
+  "cv_accuracy_std": 0.0006123564982752481,
+  "features": [
+    "pH",
+    "TDS_ppm",
+    "Turbidity_NTU",
+    "Temperature_C"
+  ],
+  "label_column": "Label",
+  "class_labels": {
+    "Unsafe": "Unsafe",
+    "Safe": "Safe"
+  },
+  "preprocessing": "Pemeriksaan nilai numerik; median imputation bila diperlukan"
+}
